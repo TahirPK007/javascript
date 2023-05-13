@@ -13,10 +13,22 @@
 // const combined = [...numbers, ...moreNumbers];
 // console.log(combined); // Output: [1, 2, 3, 4, 5, 6]
 
-const originalArray = [1, 2, 3];
-const copiedArray = [...originalArray];
-console.log(copiedArray); // Output: [1, 2, 3]
+// const originalArray = [1, 2, 3];
+// const copiedArray = [...originalArray];
+// console.log(copiedArray); // Output: [1, 2, 3]
 
-const originalObject = { name: "John", age: 30 };
-const copiedObject = { ...originalObject };
-console.log(copiedObject); // Output: { name: 'John', age: 30 }
+// const originalObject = { name: "John", age: 30 };
+// const copiedObject = { ...originalObject };
+// console.log(copiedObject); // Output: { name: 'John', age: 30 }
+
+// spread operator example : it will be mostly used with array and objects
+// let a = [1, 2, 3];
+// let b = [...a, 4, 5, 6];
+// console.log(b);
+
+//rest operator example..it will be mostly used in arguments
+const mydata = (name, age, ...otherinfo) => {
+  console.log(otherinfo);
+};
+
+mydata("ali", 27, "xyx", "rwp");
