@@ -1,0 +1,17 @@
+let a = 2.66;
+let b = "ali";
+// console.log(parseInt(a, 55));
+// console.log(isNaN(a));
+// console.log(isFinite(a));
+// console.log(Number(a));
+// console.log(Math.abs(a));
+// console.log(Math.ceil(a));
+// console.log(Math.floor(a));
+// console.log(Math.max(3, 4, 5));
+// console.log(Math.min(3, 4, 5));
+// console.log(Math.random());
+// console.log(Math.pow(a, 2));
+let x = 22.222;
+// console.log(x.toExponential(2));
+// console.log(x.toFixed(1));
+// console.log(x.toPrecision(6));
