@@ -1,6 +1,6 @@
-let x = [3, 1, 2, 3];
-let y = [4, 5, 6];
-let z = ["a", "b", "c"];
+// let x = [3, 1, 2, 3];
+// let y = [4, 5, 6];
+// let z = ["a", "b", "c"];
 // const combined = x.concat(y);
 // console.log(combined);
 // const data = x.join("");
@@ -58,6 +58,9 @@ let z = ["a", "b", "c"];
 // const flattenedArray = [].concat(...nestedArray.flat());
 // console.log(flattenedArray); // Output: [1, 2, 3, 4, 5, 6]
 
-const numbers = [1, 2, 3];
-const numbersString = numbers.toString();
-console.log(numbersString); // Output: "1,2,3"
+// const numbers = [1, 2, 3];
+// const numbersString = numbers.toString();
+// console.log(numbersString); // Output: "1,2,3"
+
+let formated = "ali";
+console.log(formated.slice(1));
