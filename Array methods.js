@@ -3,7 +3,7 @@
 // let z = ["a", "b", "c"];
 // const combined = x.concat(y);
 // console.log(combined);
-// const data = x.join("");
+// const data = x.join("45");
 // console.log(data);
 // console.log(x.push(4)); //return the new length of the array
 // console.log(x.pop());
@@ -48,12 +48,12 @@
 // const number = 5;
 // console.log(Array.isArray(number));
 
-//flat
-//e.g 1
+// flat
+// // e.g 1
 // const nestedArray = [1, 2, [3, [4]]];
 // const flattenedArray = nestedArray.flat(2);
 // console.log(flattenedArray);
-//e.g 2
+// e.g 2
 // const nestedArray = [1, [2, 3], [4, [5, 6]]];
 // const flattenedArray = [].concat(...nestedArray.flat());
 // console.log(flattenedArray); // Output: [1, 2, 3, 4, 5, 6]
@@ -62,5 +62,5 @@
 // const numbersString = numbers.toString();
 // console.log(numbersString); // Output: "1,2,3"
 
-let formated = "ali";
-console.log(formated.slice(1));
+// let formated = "ali";
+// console.log(formated.slice(1));
